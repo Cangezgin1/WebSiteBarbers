@@ -1,0 +1,74 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+
+header{
+  height: 120px;
+  border-bottom: 2px solid white;
+}
+
+body{
+  background: url('ArkaPlan11.jpg') no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+  color: white;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+header nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+}
+
+header nav .logo a {
+  color: white;
+  text-decoration: none;
+  font-weight: 700;
+  font-size: 50px;
+}
+
+nav ul{
+  list-style: none;
+  display:flex;
+  column-gap: 35px;
+}
+
+nav ul a {
+  color: white;
+  text-decoration: none;
+  font-size: 30px;
+}
+
+nav ul a:hover {
+  font-size: 40px;
+  transition: 0.6s;
+}
+
+.content{
+  color: white;
+  text-align: center;
+  height: 100px;
+  width: 400px;
+  margin-top: 5%;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.content p{
+  margin-top: 15%;
+}
